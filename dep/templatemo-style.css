@@ -253,7 +253,7 @@ ul.countdown li h3
 .team img
   {
     max-width: 100%;
-    height: auto;
+    height: 90px;
     margin-right: 10px;
   }
 /* end team */
