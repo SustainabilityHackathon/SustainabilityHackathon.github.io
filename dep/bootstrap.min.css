@@ -182,10 +182,12 @@ table {
   border-spacing: 0;
   border-collapse: collapse;
 }
-td,
+/* td,
 th {
   padding: 0;
-} /*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
+} */
+
+/*! Source: https://github.com/h5bp/html5-boilerplate/blob/master/src/css/main.css */
 @media print {
   *,
   :after,
@@ -2342,15 +2344,15 @@ caption {
   color: #777;
   text-align: left;
 }
-th {
+/* th {
   text-align: left;
-}
+} */
 .table {
   width: 100%;
   max-width: 100%;
   margin-bottom: 20px;
 }
-.table > tbody > tr > td,
+/* .table > tbody > tr > td,
 .table > tbody > tr > th,
 .table > tfoot > tr > td,
 .table > tfoot > tr > th,
@@ -2361,7 +2363,8 @@ th {
   vertical-align: top;
   border-top: 1px solid #ddd;
   font-size: 15px;
-}
+  
+} */
 .table > thead > tr > th {
   vertical-align: bottom;
   border-bottom: 2px solid #ddd;
