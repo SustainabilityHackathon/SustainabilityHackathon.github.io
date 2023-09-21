@@ -685,7 +685,7 @@ ul.countdown li h3
 	border-radius: 16px;
 	padding: 16px;
 	margin-bottom: 20px;
-	height: 200px;
+	height: 500px;
 }
 
 ._about_img{
@@ -698,9 +698,14 @@ ul.countdown li h3
 }
 
 ._about_paragraph{
-	font-size:16px;
+	padding: 10px 20px;
+    font-size: 15px;
 }
-
+._about_paragraph_ThingQbator{
+	font-size: 15px;
+	margin-top: 12px;
+	padding: 10px 20px;
+}
 
 /* start contact */
 .contact
