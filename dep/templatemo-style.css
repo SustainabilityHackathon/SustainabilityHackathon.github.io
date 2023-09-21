@@ -130,7 +130,7 @@ h2 {
 	}
 #countdown h1
 	{
-		font-size: 80px;
+		font-size: 70px;
 		font-weight: 700;
 	}
 #countdown h2
@@ -338,7 +338,7 @@ ul.countdown li h3
     display: block;
 }
 .main_paragraph{
-	font-size: 16px;
+	font-size: 19px;
 	padding: 30px 0 30px;
 	max-width: 700px;
 	margin: auto;
@@ -365,7 +365,7 @@ ul.countdown li h3
     margin-top: 50px;
     padding: 20px;
     border-radius: 16px;
-	height: 250px;
+	height: 330px;
 }
 
 .theme_heading{
@@ -417,7 +417,7 @@ ul.countdown li h3
 	text-align: center;
 	margin-top: 20px;
 	margin-bottom: 20px;
-	height: 250px;
+	height: 380px;
 }
 .problem_stetements_num{
 	font-size: 40px;
@@ -502,16 +502,46 @@ ul.countdown li h3
 	border-radius: 16px;
 	padding: 16px;
 	margin-bottom: 20px;
+	height: 200px;
 }
 .runnersUp_title{
-	font-size: 20px;
+	font-size: 24px;
 	font-weight: 600;
 	text-align: center;
+	
 }
 .runnersUp_leader{
-	font-size: 18px;
+	font-size: 20px;
 	line-height: 10px;
+	margin-bottom: 25px;
 }
+
+.runnersUp_member{
+	line-height: 10px;
+	font-size: 14px;
+}
+
+
+
+.problem_stetement_box{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+}
+
+.problem_stetement_paragraph{
+	font-size: 16px;
+	margin-bottom: 40px;
+	padding: 0 130px 0 130px;
+}
+.problem_stetement_note{
+	font-weight: 600;
+}
+
+
+
     /* CSS for the table */
 	table {
 		width: 100%;
@@ -548,6 +578,24 @@ ul.countdown li h3
 			padding: 8px;
 			font-size: 14px;
 		}
+		.problem_stetement_paragraph{
+			font-size: 16px;
+			margin-bottom: 40px;
+			padding: 0;
+		}
+		.theme_section{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			text-align: center;
+			border: 2px solid #FFDCD3;
+			margin-top: 50px;
+			padding: 20px;
+			border-radius: 16px;
+			height: 440px;
+		}
+		
 	}
 
   /* CSS for the table container */
@@ -626,6 +674,33 @@ ul.countdown li h3
     }
 }
 /* end team */
+
+
+._about_card{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #FFDCD3;
+	border-radius: 16px;
+	padding: 16px;
+	margin-bottom: 20px;
+	height: 200px;
+}
+
+._about_img{
+	height: 50px;
+}
+._about_title{
+	font-size: 22px;
+	font-weight: 600;
+	margin-top: 25px;
+}
+
+._about_paragraph{
+	font-size:16px;
+}
+
 
 /* start contact */
 .contact
