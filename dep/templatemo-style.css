@@ -731,8 +731,13 @@ ul.countdown li h3
 	border-radius: 16px;
 	padding: 16px;
 	margin-bottom: 20px;
-	height: 600px;
+	height: 430px;
 }
+
+/* ._about_para{
+	font-size: 14px;
+	padding: 0 12px 0 12px;
+} */
 ._about_card_Nasscom{
 	display: flex;
 	flex-direction: column;
@@ -742,7 +747,7 @@ ul.countdown li h3
 	border-radius: 16px;
 	padding: 16px;
 	margin-bottom: 20px;
-	height: 600px;
+	height: 430px;
 }
 
 
@@ -755,7 +760,7 @@ ul.countdown li h3
 	border-radius: 16px;
 	padding: 16px;
 	margin-bottom: 20px;
-	height: 400px;
+	height: 350px;
 }
 
 ._about_img{
@@ -765,6 +770,7 @@ ul.countdown li h3
 	font-size: 22px;
 	font-weight: 600;
 	margin-top: 25px;
+	margin-bottom: 10px;
 }
 
 ._about_paragraph{
