@@ -342,13 +342,16 @@ ul.countdown li h3
 	padding: 30px 0 30px;
 	max-width: 700px;
 	margin: auto;
+	color: white;
+}
+.main_paragraph_link{
+	color: white;
 }
 
 .rules_section{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
 	line-height: 30px;
 	font-size: 16px;
 }
@@ -365,7 +368,7 @@ ul.countdown li h3
     margin-top: 50px;
     padding: 20px;
     border-radius: 16px;
-	height: 330px;
+	height: 250px;
 }
 
 .theme_heading{
@@ -593,10 +596,35 @@ ul.countdown li h3
 			margin-top: 50px;
 			padding: 20px;
 			border-radius: 16px;
-			height: 440px;
+			height: 300px;
+		}
+		._about_card{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items: center;
+			border: 2px solid #FFDCD3;
+			border-radius: 16px;
+			padding: 16px;
+			margin-bottom: 20px;
+			height: 500px;
 		}
 		
+		
+		
+		
 	}
+
+
+	.FAQ_note{
+		font-weight: 600;
+	}
+
+
+	.FAQ_answer_2{
+		margin-top: 20px;
+	}
+
 
   /* CSS for the table container */
   .custom-table-container {
@@ -672,11 +700,13 @@ ul.countdown li h3
     .faq-item .answer {
         font-size: 14px;
     }
+	
+	
 }
 /* end team */
 
 
-._about_card{
+/* ._about_card{
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
@@ -686,6 +716,41 @@ ul.countdown li h3
 	padding: 16px;
 	margin-bottom: 20px;
 	height: 500px;
+} */
+._about_card_ThingQbator{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #FFDCD3;
+	border-radius: 16px;
+	padding: 16px;
+	margin-bottom: 20px;
+	height: 600px;
+}
+._about_card_Nasscom{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #FFDCD3;
+	border-radius: 16px;
+	padding: 16px;
+	margin-bottom: 20px;
+	height: 600px;
+}
+
+
+._about_card_Foxlab{
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 2px solid #FFDCD3;
+	border-radius: 16px;
+	padding: 16px;
+	margin-bottom: 20px;
+	height: 400px;
 }
 
 ._about_img{
@@ -865,6 +930,48 @@ footer p
 	}
 	ul.countdown span {
 		font-size: 20px;
+	}
+	._about_paragraph_ThingQbator{
+		font-size: 15px;
+		margin-top: 12px;
+		padding: 10px 20px;
+	}
+	._about_paragraph{
+		padding:  0;
+		font-size: 15px;
+	}
+	._about_card_Nasscom{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid #FFDCD3;
+		border-radius: 16px;
+		padding: 16px;
+		margin-bottom: 20px;
+		height: 500px;
+	}
+	._about_card_Foxlab{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid #FFDCD3;
+		border-radius: 16px;
+		padding: 16px;
+		margin-bottom: 20px;
+		height: 500px;
+	}
+	._about_card_ThingQbator{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		border: 2px solid #FFDCD3;
+		border-radius: 16px;
+		padding: 16px;
+		margin-bottom: 20px;
+		height: 700px;
 	}
 }
 
