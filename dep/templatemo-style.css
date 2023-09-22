@@ -989,6 +989,9 @@ footer p
 		margin-bottom: 40px;
 		padding: 0px 5px 0 33px;
 	}
+	.team .media{
+    padding: 20px 0px 20px 20px;
+  	}
 }
 
 /* start 360 media */
