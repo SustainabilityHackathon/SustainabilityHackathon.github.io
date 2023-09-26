@@ -889,6 +889,23 @@ footer p
   }
 /* end social icon */
 
+
+
+.blink_text {
+	animation-name: blinker;
+	animation-duration: 1s;
+	animation-timing-function: linear;
+	animation-iteration-count: infinite;
+   }
+   
+   @keyframes blinker {  
+	0% { opacity: 1.0; }
+	50% { opacity: 0.0; }
+	100% { opacity: 1.0; }
+   }
+
+
+
 @media only screen and (max-width: 991px) {
 	.templatemo-feature {
 		margin-bottom: 30px;
